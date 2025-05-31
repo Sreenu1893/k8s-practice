@@ -1,1 +1,1 @@
-# k8s-practice
+echo "hello world"

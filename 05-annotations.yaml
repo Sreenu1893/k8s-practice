@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: frontend
+  namespace: expense
+  annotations:
+    buildUrl: http://expamle.com
+    imageRegistry: https://example2.com
+spec:
+  containers:
+  - name: frontend
+    image: nginx

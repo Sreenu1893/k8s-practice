@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: frontend-config
+  namespace: expense
+spec:
+  containers:
+  - name: frontend-config
+    image: nginx
+    envFrom:
+      - configMapRef:
+           name: config
