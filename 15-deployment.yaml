@@ -31,7 +31,6 @@ metadata:
 spec:
   type: NodePort
   selector:
-    labels:
       app: frontend
   ports:
     - protocol: TCP
